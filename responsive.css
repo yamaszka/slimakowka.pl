@@ -1,0 +1,207 @@
+
+@media screen and (min-width: 450px) {
+    h1, h2 {
+        font-size: 1.5em;
+        width: calc(100% - 130px);
+    }
+
+    h1 {
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    header {
+        margin-top: 40px;
+        max-width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+    }
+
+    button {
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    .main_foto {
+        width: 45%;
+        max-width: 267px;
+        margin-right: 20px;
+    }
+
+    #tresc {
+        font-size: 1em;
+        /* display: flex;
+        flex-wrap: wrap; */
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #tresc1 {
+        font-size: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #red_tekst {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    #polecane {
+        width: calc(30% - 25px);
+        max-width: 200px;
+        font-size: 0.9em;
+        margin-left: 20px;
+        height: 90px;
+    }
+
+    .pok_desc {
+    width: 310px;
+    height: 204px;
+    margin-top: 65px;
+    }
+
+  .pok_desc h3{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media screen and (min-width: 650px) {
+    .giewont {
+        margin-top: 40px;
+        width: 315px;
+        height: 200px;
+    }
+
+    #fb {
+        margin-top: 40px;
+        width: calc(100% - 380px);
+    }
+
+    #gaudi1 {
+        display: flex;
+        width:520px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    #gaudi1 a {
+        margin-left: 40px;
+        text-decoration: none;
+        display: block;
+        color: #ffffff;
+        padding: 5px;
+        background-color: #400000;
+        font-size: 0.7em;
+    }
+
+    #stopka1 {
+        display: flex;
+    }
+
+    .stopka_adres {
+        display: block;
+        font-size: 0.8em;
+        color: #400000;
+        font-weight: 600;
+        text-shadow: 3px 3px #c4baba;
+        width: calc((100% - 133px)/2);
+        margin-top: 20px;
+    }
+
+    .stopka_foto {
+        float: none;
+        width: 133px;
+    }
+
+    .big {
+        display: block;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .stopka_web {
+        float: none;
+        width: calc((100% - 133px)/2);
+        margin-top: 20px;
+        text-align: right;
+    }
+}/* media650 */
+
+@media screen and (min-width: 840px) {
+    #hamburger {
+        display: none;
+    }
+
+    .closebtn {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        width: 840px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu a {
+        margin-right: 20px;
+        text-decoration: none;
+        display: block;
+        color: #ffffff;
+        padding: 5px;
+        background-color: #400000;
+        font-size: 0.7em;
+        width: 180px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #menu a:hover {
+        background-color: #4f672e;
+    }
+
+    #tresc {
+        max-width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #stopka1 {
+        max-width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pok_desc {
+        width: 410px;
+        height: 269px;
+        margin-top: 100px;
+    }
+}/* media820 */
+
+@media screen and (min-width: 1200px) {
+    .content {
+        display: flex;
+    }
+
+    .stokrotki {
+        width: 12%;
+        min-height: 100vh;
+        background: url("zdjecia/stokrotka.JPG");
+    }
+
+    .main {
+        width: 76%;
+        min-height: 100%;
+    }
+}/* media 1000 */
